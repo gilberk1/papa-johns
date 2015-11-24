@@ -1,0 +1,205 @@
+/* Desktop */
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+*/
+html {
+    height: 100%;
+}
+
+body {
+	/*background-image: url('../images/Wood.jpg');
+	font-family: Helvetica;
+	height: 100%;
+	margin:0;
+	-webkit-font-smoothing: antialiased;*/
+}
+
+
+.container {
+/*	max-width: 742px;
+	margin: 0 auto;*/
+}
+
+.header{
+	/*width: 100%;
+	height: 190px;
+	position: relative;*/
+}
+
+.logo {
+	/*display: block;
+	margin:0;
+	float: left;
+	transition: .3s ease-in-out;
+	width: 150px;
+	height: 167px;
+	padding-top: 11px;
+	padding-left: 70px;*/
+}
+
+.title {
+	/*display: block;
+	margin: 0;
+	float: right;
+	width: 714px;
+	height: 68px;
+	padding-top: 61px;
+	padding-right: 180px;*/
+}
+
+.navigation{
+	/*background-color: #2A5242;
+	width: 100%;
+	height: 72px;
+	position: relative;*/
+}
+
+.menu-icon {
+/*	display: none;
+*/}
+
+
+.nav {
+	/*display: inline-block;
+	float: left;*/
+}
+
+.nav a {
+	/*color: white;
+	font-size: 32px;
+	font-weight: bold;
+	display: block;
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 93.05px;
+	padding-right: 93.05px;
+	text-decoration: none;
+	transition: .3s ease-in;*/
+}
+
+#home {
+	/*background-color: #4D2702;
+	color: #D2D50B*/
+}
+
+.nav a:hover {
+	/*background-color: #553A1F;
+	color: #D2D50B*/
+}
+
+.photo {
+	/*width: 100%;
+	height: 468px;
+	position: relative;*/
+}
+
+.body {
+	/*background-color: #EBEBEB;
+	position: relative;
+	transition: .2s ease-in;
+	width: 100%;*/
+}
+
+.body-content {
+/*	position: relative;
+	left: 50%;
+	text-align: center;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);*/
+}
+
+.footer {
+	/*width: 100%;
+	height: 100px;
+	position: relative;
+	margin-top: -30px;*/
+}
+
+.social {
+	/*display: inline-block;
+	float: left;
+	margin-left: 100px;
+	margin-right: 75px;*/
+}
+
+.social img {
+	/*display: block;
+	float: left;
+	padding-top: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	transition: .3s ease-in;*/
+}
+
+#facebook:hover {
+/*	opacity: 0;
+*/}
+
+#twitter:hover {
+/*	opacity: 0;
+*/}
+
+#yelp:hover {
+/*	opacity: 0;
+*/}
+
+.address, .contact {
+	/*display: block;
+	margin:0;
+	float: left;
+	width: 220px;
+	padding-top: 15px;
+	padding-left: 30px;
+	font-size: 14pt;
+	font-weight: bold;
+	color: white;*/
+}
+
+.email {
+/*	display: inline-block;
+	float: left;
+	margin-left: 100px;
+	margin-right: 100px;*/
+}
+
+.email img {
+	/*display: block;
+	float: left;
+	padding-top: 35px;
+	padding-left: 5px;
+	padding-right: 5px;
+	transition: .3s ease-in;*/
+}
+
+#envelope:hover {
+/*	opacity: 0;
+*/}
+
+.black_overlay{
+	/*display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.6;
+	opacity:.60;
+	filter: alpha(opacity=60);*/
+}
+
+.white_content {
+	/*display: none;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border: 10px solid black;
+	background-color: #EBEBEB;
+	z-index:1002;
+	overflow: auto;*/
+}
