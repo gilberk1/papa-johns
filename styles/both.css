@@ -98,6 +98,67 @@ h1 {
 	display: center;
 }
 
+#pizza {
+	display: none;
+}
+
+#sides {
+	display: none;
+}
+
+#desserts {
+	display: none;
+}
+
+#drinks {
+	display: none;
+}
+
+#specials {
+	display: none;
+}
+
+
+#pizza-black {
+	display: none;
+}
+
+#sides-black {
+	display: none;
+}
+
+#desserts-black {
+	display: none;
+}
+
+#drinks-black {
+	display: none;
+}
+
+#specials-black {
+	display: none;
+}
+
+#pizza-white {
+	display: center;
+}
+
+#sides-white {
+	display: center;
+}
+
+#desserts-white {
+	display: center;
+}
+
+#drinks-white {
+	display: center;
+}
+
+#specials-white {
+	display: center;
+}
+
 .footer {
 	background: #df9cdf;
 	width: 375px;
