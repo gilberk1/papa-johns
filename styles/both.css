@@ -9,20 +9,20 @@ body {
 	font-family: "Open Sans";
 	font-weight: 600;
 	font-size: 16pt;
-	color: white;
+	color: black;
 	height: 100%;
 	margin:0 auto;
 	-webkit-font-smoothing: antialiased;
 }
 
 .header{
-	background: #FF0205;
+	background: #00fdfa;
 	width: 375px;
 	height: 100px;
 	position: relative;
 	left: 0;
 	right: 0;
-	border-bottom: 4px black solid;
+	border-bottom: 4px white solid;
 }
 
 .home {
@@ -54,6 +54,7 @@ body {
 
 .body {
 	position: relative;
+	background-color: black;
 	padding-top: 10px;
 	left: 0;
 	right: 0;
@@ -67,45 +68,44 @@ h1 {
 	position: relative;
 	font-size: 20pt;
 	font-style: italic;
-	color: black;
+	color: white;
 }
-
 #cheese {
-	display: center;
+	display: none;
 }
 
 #delivery-original {
-	display: center;
+	display: none;
 }
 
 #carryout-original {
-	display: center;
+	display: none;
 }
 
 #store-original {
-	display: center;
+	display: none;
 }
 
 #delivery-large {
-	display: none;
+	display: center;
 }
 
 #carryout-large {
-	display: none;
+	display: center;
 }
 
 #store-large {
-	display: none;
+	display: center;
 }
 
 .footer {
-	background: #206320;
+	background: #df9cdf;
 	width: 375px;
 	height: 100px;
 	position: relative;
 	left: 0;
 	right: 0;
-	border-top: 4px black solid;
+	border-top: 4px white solid;
 }
 
 .contrast {
@@ -151,7 +151,7 @@ input[type="checkbox"].ios-switch + div {
 input[type="checkbox"].ios-switch:checked + div {
 	width: 40px;
 	background-position: 0 0;
-	background-color: #3b89ec;
+	background-color: #c47613;
 	border: 1px solid black;
 }
 
@@ -166,7 +166,7 @@ input[type="checkbox"].ios-switch + div > div {
 	float: left;
 	width: 18px; height: 18px;
 	border-radius: inherit;
-	background: #ffffff;
+	background: black;
 	-webkit-transition-timing-function: cubic-bezier(.54,1.85,.5,1);
 	-webkit-transition-duration: 0.4s;
 	-webkit-transition-property: transform, background-color, box-shadow;

@@ -2,28 +2,38 @@
 <html>
 <head>
   <title>Papa John's</title>
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <script type="text/javascript" src="scripts/nav.js"></script>
+  <link id="pagestyle" rel="stylesheet" type="text/css" href="styles/style.css">
+  <script type="text/javascript" src="scripts/switch.js"></script>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <div class="home">
-        <img src="images/House.png" width="65px" height="57px">
-      </div>
-      <div class="papa-johns">
-        <img src="images/PapaJohns.png" width="170px" height="84px">
-      </div>
-      <div class="cart">
-        <img src="images/Cart.png" width="65px" height="61px">
-      </div>
+	<div class="header">
+   		<div class="home">
+        	<a href="index.html"><img src="images/House.png" width="65px" height="57px"></a>
+    	</div>
+      	<div class="papa-johns">
+        	<img src="images/PapaJohns.png" width="160px" height="74px">
+      	</div>
+      	<div class="cart">
+        	<a href="cart.html"><img src="images/Cart.png" width="65px" height="61px"></a>
+      	</div>
     </div>
     <div class="body">
-      <div class="body-content">
-        <h1>-</h1>
-      </div>
+        <h1>What would you like to do?</h1>
+        <img id="cheese" src="images/Cheese.png" width="291.6px" height="172.8px" style="margin-top: 5%">
+        <img id="delivery-original" src="images/Delivery.png" width="157.5px" height="51.75px" style="margin-top: 8%">
+        <a href="menu.html"><img id="carryout-original" src="images/Carryout.png" width="157.5px" height="51.75px"></a>
+        <img id="store-original" src="images/FindStore.png" width="157.5px" height="51.75px" style="margin-top: 5%">
+        <img id="delivery-large" src="images/Delivery.png" width="315px" height="103px">
+        <img id="carryout-large" src="images/Carryout.png" width="315px" height="103px" style="margin-top: 5%">
+        <img id="store-large" src="images/FindStore.png" width="315px" height="103px" style="margin-top: 5%">
+   	</div>
+    <div class="footer">
+    	<div class="contrast">
+    		<label class="">Contrast<input type="checkbox" id="contrast-switch" onclick="swapSheet()" class="ios-switch bigswitch" unchecked/><div><div></div></div></label>
+    	</div>
+    	<div class="text">
+    		<label>Text Size<input type="checkbox" id="text-switch" onclick="swapSheet()" class="ios-switch bigswitch" unchecked/><div><div></div></div></label>
+    	</div>
     </div>
-    <div class="footer"></div>
-  </div>
 </body>
 </html>

@@ -71,31 +71,31 @@ h1 {
 }
 
 #cheese {
-	display: center;
+	display: none;
 }
 
 #delivery-original {
-	display: center;
+	display: none;
 }
 
 #carryout-original {
-	display: center;
+	display: none;
 }
 
 #store-original {
-	display: center;
+	display: none;
 }
 
 #delivery-large {
-	display: none;
+	display: center;
 }
 
 #carryout-large {
-	display: none;
+	display: center;
 }
 
 #store-large {
-	display: none;
+	display: center;
 }
 
 .footer {
