@@ -159,6 +159,40 @@ h1 {
 	display: center;
 }
 
+#page1 {
+	display: none;
+}
+
+#page2 {
+	display: block;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	float: right;
+	font-weight: bold;
+	position: relative;
+	font-size: 25pt;
+	width: 375px;
+	color: white;
+}
+
+p {
+	font-size: 18pt;
+	float: center;
+	width: 375px;
+	color: white;
+}
+
+#customize {
+	display: center;
+}
+
+#add-cart {
+	display: center;
+}
+
 .footer {
 	background: #df9cdf;
 	width: 375px;
