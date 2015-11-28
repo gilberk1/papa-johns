@@ -157,6 +157,66 @@ h1 {
 #specials-white {
 	display: none;
 }
+
+#page1 {
+	display: block;
+}
+
+#page2 {
+	display: none;
+}
+
+.item {
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 375px;
+	height: 222.5px;
+	text-align: center;
+	border-bottom: 4px black solid;
+}
+
+h2 {
+	margin-top: 10px;
+	float: right;
+	font-weight: bold;
+	position: relative;
+	font-size: 18pt;
+	width: 375px;
+	color: black;
+}
+
+p {
+	font-size: 12pt;
+	margin-top: -90px;
+	padding-right: 20px;
+	float: right;
+	width: 175px;
+	color: black;
+}
+
+h3 {
+	margin-top: 10px;
+	float: left;
+	font-weight: bold;
+	position: relative;
+	font-size: 18pt;
+	width: 375px;
+	color: black;
+}
+
+#customize {
+	display: center;
+}
+
+#add-cart {
+	display: center;
+}
+
+#pepperoni {
+	display: center;
+}
+
 .footer {
 	background: #206320;
 	width: 375px;
