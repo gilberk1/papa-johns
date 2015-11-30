@@ -217,6 +217,22 @@ h3 {
 	display: center;
 }
 
+h4 {
+	margin: 0 auto;
+	margin-top: -10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-weight: bold;
+	position: relative;
+	font-size: 18pt;
+	width: 360px;
+	color: black;
+	background-color: #CDCDCD;
+	border-bottom: 4px black solid;
+}
+
 .footer {
 	background: #206320;
 	width: 375px;

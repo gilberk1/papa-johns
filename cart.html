@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+  <title>Papa John's</title>
+  <link id="pagestyle" rel="stylesheet" type="text/css" href="styles/style.css">
+  <script type="text/javascript" src="scripts/switch.js"></script>
+</head>
+<body>
+	<div class="header">
+   		<div class="home">
+        	<a href="index.html"><img src="images/House.png" width="65px" height="57px"></a>
+    	</div>
+      	<div class="papa-johns">
+        	<img src="images/PapaJohns.png" width="160px" height="74px">
+      	</div>
+      	<div class="cart">
+        	<a href="cart.html"><img src="images/Cart.png" width="65px" height="61px"></a>
+      	</div>
+    </div>
+    <div class="body">
+      <div id="page1">
+        <h4>Items in Cart</h4>
+        <div class="item" style="height: 200px">
+          <h2><img id="cheese" src="images/Cheese.png" width="145.8px" height="86.4px" style="display: block; padding-left: 15px; padding-top: 25px; float: left;">Cheese Pizza</h2>
+          <p style="text-align: left">Square Cut<br/>Well Done<br/>Sauce: original</p>
+          <h3 style="margin: 0 auto">$12.75<img id="edit" src="images/Edit.png" width="75px" height="38.625px" style="margin-left: 30px; padding-left: 10px"><img id="remove" src="images/Remove.png" width="112.5px" height="38.625px" style="margin-left: 10px; margin-right: -30px;"></h3>
+          <h2 style="text-align:right; margin: 0 auto; margin-top: 35px; padding-right: 15px; font-weight: lighter">Subtotal: $12.75</h2>
+          <h2 style="text-align:right; margin: 0 auto; padding-right: 15px; font-weight: lighter">Tax: $0.93</h2>
+          <h2 style="text-align:right; margin: 0 auto; padding-right: 15px; margin-bottom: 15px">Est. Total: $13.68</h2>
+          <img id="add-more" src="images/AddMore.png" width="175px" height="51.5px">
+          <img id="checkout" src="images/Checkout.png" width="175px" height="51.5px">
+        </div>
+      </div>
+      <div id="page2">
+        <h4>Items in Cart</h4>
+        <div class="item" style="height: 240px">
+          <h2>Cheese Pizza - $12.75</h2>
+          <p style="margin: 0 auto; margin-bottom: 15px">Square Cut<br/>Well Done<br/>Sauce: original</p>
+          <img id="edit" src="images/Edit.png" width="100px" height="51.5px" style="margin-right: 20px">
+          <img id="remove" src="images/Remove.png" width="150px" height="51.5px">
+          <h2 style="text-align:center; margin: 0 auto; margin-top: 25px; font-weight: lighter; font-size: 20pt">Subtotal: $12.75 + Tax: $0.93</h2>
+          <h2 style="text-align:right; margin: 0 auto; padding-right: 15px; margin-bottom: 11px; font-size: 20pt">Est. Total: $13.68</h2>
+          <img id="add-more" src="images/AddMore.png" width="175px" height="51.5px">
+          <img id="checkout" src="images/Checkout.png" width="175px" height="51.5px">
+        </div>
+      </div>
+   	</div>
+    <div class="footer">
+    	<div class="contrast">
+    		<label class="">Contrast<input type="checkbox" id="contrast-switch" onclick="swapSheet()" class="ios-switch bigswitch" unchecked/><div><div></div></div></label>
+    	</div>
+    	<div class="text">
+    		<label>Text Size<input type="checkbox" id="text-switch" onclick="swapSheet()" class="ios-switch bigswitch" unchecked/><div><div></div></div></label>
+    	</div>
+    </div>
+</body>
+</html>
