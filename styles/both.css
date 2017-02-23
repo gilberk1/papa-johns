@@ -1,3 +1,6 @@
+/* Stylesheet when Contrast and Enlarge are on */
+
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 html {
@@ -70,91 +73,36 @@ h1 {
 	font-style: italic;
 	color: white;
 }
-#cheese {
-	display: none;
-}
-
-#delivery-original {
-	display: none;
-}
-
-#carryout-original {
-	display: none;
-}
-
+#cheese,
+#delivery-original,
+#carryout-original,
 #store-original {
 	display: none;
 }
 
-#delivery-large {
-	display: center;
-}
-
-#carryout-large {
-	display: center;
-}
-
+#delivery-large,
+#carryout-large,
 #store-large {
 	display: center;
 }
 
-#pizza {
-	display: none;
-}
-
-#sides {
-	display: none;
-}
-
-#desserts {
-	display: none;
-}
-
-#drinks {
-	display: none;
-}
-
-#specials {
-	display: none;
-}
-
-
-#pizza-black {
-	display: none;
-}
-
-#sides-black {
-	display: none;
-}
-
-#desserts-black {
-	display: none;
-}
-
-#drinks-black {
-	display: none;
-}
-
+#pizza,
+#sides,
+#desserts,
+#drinks,
+#specials,
+#pizza-black,
+#sides-black,
+#desserts-black,
+#drinks-black,
 #specials-black {
 	display: none;
 }
 
-#pizza-white {
-	display: center;
-}
-
-#sides-white {
-	display: center;
-}
-
-#desserts-white {
-	display: center;
-}
-
-#drinks-white {
-	display: center;
-}
-
+#pizza-white,
+#sides-white,
+#desserts-white,
+#drinks-white,
 #specials-white {
 	display: center;
 }
@@ -185,14 +133,10 @@ p {
 	color: white;
 }
 
-#customize {
-	display: center;
-}
-
+#customize,
 #add-cart {
 	display: center;
 }
-
 
 h4 {
 	margin: 0 auto;
