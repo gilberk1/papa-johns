@@ -1,3 +1,6 @@
+/* Stylesheet when Contrast is on and Enlarge is off */
+
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 html {
@@ -71,91 +74,37 @@ h1 {
 	color: white;
 }
 
-#cheese {
-	display: center;
-}
-
-#delivery-original {
-	display: center;
-}
-
-#carryout-original {
-	display: center;
-}
-
+#cheese,
+#delivery-original,
+#carryout-original,
 #store-original {
 	display: center;
 }
 
-#delivery-large {
-	display: none;
-}
 
-#carryout-large {
-	display: none;
-}
-
+#delivery-large,
+#carryout-large,
 #store-large {
 	display: none;
 }
 
-#pizza {
-	display: center;
-}
-
-#sides {
-	display: center;
-}
-
-#desserts {
-	display: center;
-}
-
-#drinks {
-	display: center;
-}
-
+#pizza,
+#sides,
+#desserts,
+#drinks,
 #specials {
 	display: center;
 }
 
-
-#pizza-black {
-	display: none;
-}
-
-#sides-black {
-	display: none;
-}
-
-#desserts-black {
-	display: none;
-}
-
-#drinks-black {
-	display: none;
-}
-
-#specials-black {
-	display: none;
-}
-
-#pizza-white {
-	display: none;
-}
-
-#sides-white {
-	display: none;
-}
-
-#desserts-white {
-	display: none;
-}
-
-#drinks-white {
-	display: none;
-}
-
+#pizza-black,
+#sides-black,
+#desserts-black,
+#drinks-black,
+#specials-black,
+#pizza-white,
+#sides-white,
+#desserts-white,
+#drinks-white,
 #specials-white {
 	display: none;
 }
@@ -207,14 +156,8 @@ h3 {
 	color: white;
 }
 
-#customize {
-	display: center;
-}
-
-#add-cart {
-	display: center;
-}
-
+#customize,
+#add-cart,
 #pepperoni {
 	display: center;
 }
